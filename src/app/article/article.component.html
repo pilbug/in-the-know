@@ -1,0 +1,9 @@
+<li [ngStyle]="{
+'background-color': this.bgColor,
+'display': this.getDisplay()
+}">
+  <h4>{{title}}</h4>
+  <h6>{{summary}}</h6>
+  <button class="btn btn-primary" (click)="gotoArticle()">Read</button>
+  <p class="date">{{getFormatedDate()}}</p>
+</li>

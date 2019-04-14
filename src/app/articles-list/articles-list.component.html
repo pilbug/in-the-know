@@ -1,0 +1,16 @@
+<div>
+  <button class="badge-pill" (click)="toggleFilterRead()">{{ filterButtonText }}</button>
+  <br />
+  <br />
+<ol>
+  <app-article *ngFor="let article of articles"
+               [id]="article.id"
+               [title]="article.title"
+               [summary]="article.summary"
+               [url]="article.url"
+               [publishDate]="article.publishDate"
+               [filterRead]="this.filterRead"
+  >
+  </app-article>
+</ol>
+</div>

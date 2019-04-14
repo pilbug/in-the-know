@@ -1,0 +1,16 @@
+li {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  border-bottom: solid 1px lightgray;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: .75em;
+}
